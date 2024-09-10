@@ -40,7 +40,7 @@ other files.
 Inserting a command into the Cinnamon menu is trivial and if you've done it
 before you can skip over this section.  For anyone who is not familiar with
 inserting/creating a menu item follow along
-1) open the menu by using a <Right click> on the Cinnamon menu Icon,
+Open the menu by using a <Right click> on the Cinnamon menu Icon,
 the leftmost Icon on the panel.  A selection box will pop up.  select the
 top option <Edit Menu>. In the middle pane where the two columns are
 [Show  Item] select the menu section you'd prefer to have the script entry

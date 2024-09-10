@@ -1,3 +1,5 @@
+This is best viewed using the [Raw] button near the top of this panel.
+It allows the original formatting to be preserved.
 
 This was written for Linux Mint 21.x and 22  It should work in most distros
 as long as you can install yt-dlp.

@@ -34,9 +34,9 @@ to your bin directory.  To make it executable go back to the terminal and
 type 'chmod +x ytdlm.sh', and it's ready to run.
 
 NOTE: I cannot explain how to do any of the following for other than
-the Mint Cinnamon environment.  If you use Mate of XFCE you'll need
+the Mint Cinnamon environment.  If you use Mate or XFCE you'll need
 to use the following instructions as a guide only.
-If anyone who uses iether of the other Mint releases wants to, give me
+If anyone who uses either of the other Mint releases wants to, give me
 a documeted means of inserting a new menu item and I'll include it with the
 other files.
 Inserting a command into the Cinnamon menu is trivial and if you've done it
@@ -47,10 +47,10 @@ the leftmost Icon on the panel.  A selection box will pop up.  select the
 top option <Edit Menu>. In the middle pane where the two columns are
 [Show  Item] select the menu section you'd prefer to have the script entry
 placed in.  I chose [Internet].
-On th right pane, select the second from top item [New Item].
+On the right pane, select the second from top item [New Item].
 
 A new dialog box will pop up. this is where you enter the details of
-your menu entry will be provided.
+your menu entry.
 
 The top line labelled [Name:] is what you will call your program
   I used 'Youtube Downloader' (without the quotes)

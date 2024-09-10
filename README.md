@@ -73,5 +73,14 @@ Open the [Youtube Downloader] application with a <Left click>
 If it opens all you have to do is install yt-dlp if you haven't already,
 and you're finished.
 
+If you don't alread have a directory nsmrd 'YouTube' in your home directory
+The script will create it for you.  This is where all downloaded files will 
+be put.
+Ther is another function tha ytdlm.sh can perform, and that is a list of
+URLs, single files or playlists you supply can be downloaded all at once.
+Create a file in the YouTube directory named 'urls.txt'  Paste each URL 
+into the file on sucessive lines and once you use Option 9 in the menu
+downloding will start.
+
 This application does not rely on any window components so you can run it
 from a remote terminal ssh'ed to the host where it's installed

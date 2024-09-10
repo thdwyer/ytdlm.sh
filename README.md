@@ -24,43 +24,48 @@ and that will take you to your home directory. type 'ls -d ./bin'. If you
 see 'ls: cannot access 'bin': No such file or directory', you definitely
 don't have it.  To make the directory, type 'md ./bin' and the directory
 will be created. Now type 'cd bin'.  In order to have the bin directory
-in your PATH environment variable, it will happen if you log out or restart
-until then you will need to address the script directly from within the bin
-directory by typing './ytdlm.sh' which tells the terminal to run the script
-that is in the current './' directly, or use it's fully qualified 
-path ~/bin/ytdlm.sh
+in your PATH environment variable, it will happen if you log out and back in
+or restart until then you will need to address the script directly from 
+within the bin directory by typing './ytdlm.sh' which tells the terminal 
+to run the script that is in the current './' directory, or use it's fully 
+qualified path ~/bin/ytdlm.sh
 
 In your filebrowser [nemo, thunar etc..] copy the extracted ytdlm.sh script
 to your bin directory.  To make it executable go back to the terminal and
-type 'chmod +x ytdlm.sh', and it's ready to run.
+type 'chmod +x ytdlm.sh', or, in the file browser right click on the file,
+select [Properties] right at the bottom then [Permissions] in the dialog 
+box that pops up.  On the [Owner] line check the [Execute] checkbox and 
+it's ready to run.
 
 NOTE: I cannot explain how to do any of the following for other than
 the Mint Cinnamon environment.  If you use Mate or XFCE you'll need
 to use the following instructions as a guide only.
 If anyone who uses either of the other Mint releases wants to, give me
-a documeted means of inserting a new menu item and I'll include it with the
-other files.
+a documented means of inserting a new menu item and I'll include it with
+the other files.
 Inserting a command into the Cinnamon menu is trivial and if you've done it
 before you can skip over this section.  For anyone who is not familiar with
-inserting/creating a menu item follow along
+inserting/creating a menu item follow along here:
+
 Open the menu by using a <Right click> on the Cinnamon menu Icon,
 the leftmost Icon on the panel.  A selection box will pop up.  select the
-top option <Edit Menu>. In the middle pane where the two columns are
-[Show  Item] select the menu section you'd prefer to have the script entry
-placed in.  I chose [Internet].
-On the right pane, select the second from top item [New Item].
+top option <Edit Menu>.  In the middle pane where the two columns are,
+[Show  Item], select the menu section you'd prefer to have the script entry
+placed in.  I chose [Internet].  Be careful you don't inadvertantly uncheck
+the [Show] checkbox.  On the right pane, select the second from top item 
+[New Item].
 
 A new dialog box will pop up. this is where you enter the details of
 your menu entry.
 
-The top line labelled [Name:] is what you will call your program
+The top line labelled [Name:] is what you will call your program.
   I used 'Youtube Downloader' (without the quotes)
-The second line labelled [Command:] is the full path to the program
-  I used '/home/[user]/bin/ytdlm.sh' replace [user] with your login name
+The second line labelled [Command:] is the full path to the program.
+  I used '/home/[user]/bin/ytdlm.sh'.  Replace [user] with your login name
 The third line labelled [Comment:] is a brief description of what the
-  program does
+  program does.
   I used 'Download from Youtube URLs'
-To enable it to run it has to be called from a shell (terminal)
+To enable it to run it has to be run in a (terminal).
   enable this by ticking the checkbox labelled [Launch inTerminal?]
 
 Click [OK] on the dialog box
@@ -71,13 +76,13 @@ Browse to the [Internet] menu (or whichever you chose)
 Move the cursor to the right pane where the applications are located
 Open the [Youtube Downloader] application with a <Left click>
 
-If it opens all you have to do is install yt-dlp if you haven't already,
+If it opens, all you have to do is install yt-dlp if you haven't already,
 and you're finished.
 
-If you don't alread have a directory nsmrd 'YouTube' in your home directory
+If you don't alread have a directory named 'YouTube' in your home directory
 The script will create it for you.  This is where all downloaded files will 
 be put.
-Ther is another function tha ytdlm.sh can perform, and that is a list of
+There is another function that ytdlm.sh can perform, and that is a list of
 URLs, single files or playlists you supply can be downloaded all at once.
 Create a file in the YouTube directory named 'urls.txt'  Paste each URL 
 into the file on sucessive lines and once you use Option 9 in the menu

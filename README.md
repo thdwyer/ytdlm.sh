@@ -4,7 +4,7 @@ It allows the original formatting to be preserved.
 This was written for Linux Mint 21.x and 22  It should work in most distros
 as long as you can install yt-dlp.
 
-This is a wrapper for yt-dlp ehich should be available via software manager
+This is a wrapper for yt-dlp which should be available via software manager
 (in Mint at least)
 
 Keep in mind that youtube is constantly coming up with ways to disable any
@@ -12,7 +12,7 @@ utility that is capable of downloading from a url pointing to one of it's
 files.
 
 The author of yt-dlp is pretty much on top of Youtube's attempts to prevent
-downloadin anything it considers an asset.  yt-dlp is updated often enough
+downloading anything it considers an asset.  yt-dlp is updated often enough
 that if you use this script or run 'sudo yt-dlp -U' it can be updated at will.
 
 I have it installed in the Cinnamon->Internet menu as an application.
@@ -26,8 +26,9 @@ don't have it.  To make the directory, type 'md ./bin' and the directory
 will be created. Now type 'cd bin'.  In order to have the bin directory
 in your PATH environment variable, it will happen if you log out or restart
 until then you will need to address the script directly from within the bin
-directory by typing './ytdlm.sh' which tells the terminal to run that script
-that is in the current './' directly
+directory by typing './ytdlm.sh' which tells the terminal to run the script
+that is in the current './' directly, or use it's fully qualified 
+path ~/bin/ytdlm.sh
 
 In your filebrowser [nemo, thunar etc..] copy the extracted ytdlm.sh script
 to your bin directory.  To make it executable go back to the terminal and
